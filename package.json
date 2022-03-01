@@ -1,0 +1,24 @@
+{
+  "name": "advice-generator-app-main",
+  "version": "1.0.0",
+  "description": "New Project",
+  "default": "script.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exequiel-mas/Challenges.git"
+  },
+  "author": "Exequiel Massimelli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/exequiel-mas/Challenges/issues"
+  },
+  "homepage": "https://github.com/exequiel-mas/Challenges#readme",
+  "dependencies": {
+    "parcel": "^2.3.2",
+    "sass": "^1.49.9"
+  }
+}
