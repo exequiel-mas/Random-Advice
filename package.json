@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/exequiel-mas/Challenges.git"
+    "url": "git+https://github.com/exequiel-mas/Advice_Gen.git"
   },
   "author": "Exequiel Massimelli",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/exequiel-mas/Challenges/issues"
+    "url": "https://github.com/exequiel-mas/Advice_Gen/issues"
   },
-  "homepage": "https://github.com/exequiel-mas/Challenges#readme",
+  "homepage": "https://github.com/exequiel-mas/Advice_Gen#readme",
   "dependencies": {
     "parcel": "^2.3.2",
     "sass": "^1.49.9"
