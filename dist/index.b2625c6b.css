@@ -44,7 +44,7 @@ html body div.card {
   margin-top: 15%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
   html body div.card {
     width: 90vw;
     padding: 30px 10px;
@@ -81,7 +81,7 @@ html body div.card img.mobileDivider {
   display: none;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
   html body div.card img.mobileDivider {
     display: block;
     margin-bottom: 30px;
@@ -136,7 +136,7 @@ html body button img {
   margin: auto;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
   html body button img {
     width: 30px;
     height: 30px;
