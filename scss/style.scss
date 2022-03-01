@@ -3,6 +3,7 @@ $secBkColor: hsl(217, 19%, 24%);
 $mainBkColor: hsl(218, 23%, 16%);
 $textColor: hsl(193, 38%, 86%);
 $lightColor: hsl(150, 100%, 66%);
+$mediaQuery: 400px;
 * {
   margin: 0px;
   box-sizing: border-box;
@@ -36,7 +37,7 @@ html {
         color: $lightColor;
         font-size: 0.75rem;
         letter-spacing: 4px;
-        @media (max-width: 375px) {
+        @media (max-width: $mediaQuery) {
           font-size: 1rem;
         }
       }
@@ -45,7 +46,7 @@ html {
         color: $textColor;
         margin: 15px 15px 15px 15px;
         text-align: center;
-        @media (max-width: 375px) {
+        @media (max-width: $mediaQuery) {
           font-size: 1.5rem;
         }
       }
@@ -61,7 +62,7 @@ html {
         width: 90%;
         margin-bottom: 15px;
         margin-top: 15px;
-        @media (max-width: 375px) {
+        @media (max-width: $mediaQuery) {
           display: none;
         }
       }
@@ -75,7 +76,7 @@ html {
       width: 48px;
       background-color: $lightColor;
       border: none;
-      @media (max-width: 375px) {
+      @media (max-width: $mediaQuery) {
         width: 60px;
         height: 60px;
       }
@@ -104,6 +105,10 @@ html {
       a {
         color: $lightColor;
         text-decoration: none;
+      }
+      @media (max-width: $mediaQuery) {
+        margin-left: 30px;
+        margin-right: 30px;
       }
     }
   }
