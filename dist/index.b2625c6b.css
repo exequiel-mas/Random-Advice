@@ -6,7 +6,7 @@
 
 html {
   font-size: 16px;
-  font-family: "Manrope", sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 html body {
@@ -58,7 +58,7 @@ html body div.card h1 {
   letter-spacing: 4px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
   html body div.card h1 {
     font-size: 1rem;
   }
@@ -71,7 +71,7 @@ html body div.card p {
   text-align: center;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
   html body div.card p {
     font-size: 1.5rem;
   }
@@ -95,7 +95,7 @@ html body div.card img.desktopDivider {
   margin-top: 15px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
   html body div.card img.desktopDivider {
     display: none;
   }
@@ -117,7 +117,7 @@ html body button {
   border: none;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
   html body button {
     width: 60px;
     height: 60px;
@@ -154,6 +154,13 @@ html body div.attribution {
 html body div.attribution a {
   color: #52ffa8;
   text-decoration: none;
+}
+
+@media (max-width: 400px) {
+  html body div.attribution {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
 }
 
 /*# sourceMappingURL=index.b2625c6b.css.map */
