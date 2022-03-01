@@ -53,7 +53,7 @@ html body div.card {
 
 html body div.card h1 {
   text-transform: uppercase;
-  color: #e27c57;
+  color: #52ffa8;
   font-size: 0.75rem;
   letter-spacing: 4px;
 }
@@ -113,7 +113,7 @@ html body button {
           transform: translate(0%, -50%);
   height: 48px;
   width: 48px;
-  background-color: #e27c57;
+  background-color: #52ffa8;
   border: none;
 }
 
@@ -152,7 +152,7 @@ html body div.attribution {
 }
 
 html body div.attribution a {
-  color: #e27c57;
+  color: #52ffa8;
   text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
