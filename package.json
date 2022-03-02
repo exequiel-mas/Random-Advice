@@ -22,5 +22,8 @@
     "node-sass": "^7.0.1",
     "parcel": "^2.3.2",
     "sass": "^1.49.9"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
   }
 }
