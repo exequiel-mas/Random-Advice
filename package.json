@@ -5,7 +5,7 @@
   "default": "script.js",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist",
+    "build": "npx -p  parcel parcel build index.html --dist-dir ./dist",
     "scss": "node-sass --watch scss -o css"
   },
   "repository": {
