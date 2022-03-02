@@ -1,7 +1,7 @@
 {
-  "name": "advice-generator-app-main",
+  "name": "package",
   "version": "1.0.0",
-  "description": "New Project",
+  "description": "Advice_Gen",
   "default": "script.js",
   "scripts": {
     "start": "parcel index.html",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/exequiel-mas/Advice_Gen.git"
+    "url": "git+https://github.com/exequiel-mas/Random-Advice.git"
   },
   "author": "Exequiel Massimelli",
   "license": "ISC",
