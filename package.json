@@ -15,9 +15,9 @@
   "author": "Exequiel Massimelli",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/exequiel-mas/Advice_Gen/issues"
+    "url": "https://github.com/exequiel-mas/Random-Advice/issues"
   },
-  "homepage": "https://github.com/exequiel-mas/Advice_Gen#readme",
+  "homepage": "https://github.com/exequiel-mas/Random-Advice#readme",
   "dependencies": {
     "node-sass": "^7.0.1",
     "parcel": "^2.3.2",
