@@ -5,7 +5,8 @@
   "default": "script.js",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html --dist-dir ./dist",
+    "scss": "node-sass --watch scss -o css"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/exequiel-mas/Advice_Gen#readme",
   "dependencies": {
+    "node-sass": "^7.0.1",
     "parcel": "^2.3.2",
     "sass": "^1.49.9"
   }
